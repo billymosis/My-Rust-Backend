@@ -1,0 +1,19 @@
+GET http://127.0.0.1:8080
+
+###
+POST http://127.0.0.1:8080/create HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample",
+    "body": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
+GET http://127.0.0.1:8080/
+
+###
+POST http://127.0.0.1:8080/uploadfiles
+
+###
+PUT http://127.0.0.1:8080/publish/7869d32a-9821-43e6-ae21-17636e0d0ef7 HTTP/1.1
